@@ -1,0 +1,132 @@
+/* Set background styling */
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100vh;
+    background-image: url(images/cele.jpg);
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* Logo styling */
+.logo-container {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-left: 170px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white; /* Adjust text color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+
+
+.content {
+    float: right;
+    width: 60%; 
+}
+
+.banner {
+    background-color: #E9ECEF;
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    height: 39vh
+}
+
+
+.banner h2 {
+    margin-top: 80px; /* Adjust as needed */
+}
+
+
+
+
+.form-container {
+    padding-left: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Add space between label/input pairs */
+    margin-bottom: 10px; /* Add space between form groups */
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column; /* Arrange label and input in a column */
+    margin-right: 200px; /* Add space between form fields */
+}
+
+.form-field label {
+    margin-bottom: 5px; /* Add space between label and input */
+}
+
+.form-field input {
+    width: 200px; /* Adjust input width as needed */
+}
+
+
+
+.form-actions {
+    border-top: 3px solid rgba(0, 0, 0, 0.2); /* Add shadow border at the top */
+    padding-top: 10px; /* Add padding to separate from the content above */
+    margin-bottom: 0px;
+    
+}
+
+.form-actions button {
+    background-color: #596D48; /* Set background color for the button */
+    color: white; /* Set text color for the button */
+    border: none; /* Remove default button border */
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+}
+
+.form-actions a {
+    color: #596D48; /* Set text color for the log in link */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.form-actions a:hover {
+    text-decoration: underline; /* Add underline when hovering over the link */
+}
+
+
+
+
+
+
+
